@@ -1,0 +1,16 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js && zuul --ui tape --local 9966 -- test.js",
+    "ci": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.0",
+    "zuul": "^3.10.2"
+  }
+}
