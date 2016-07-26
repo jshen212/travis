@@ -1,7 +1,7 @@
 module.exports = Bear;
 
 function Bear(type) {
-  this.type = type || 'some';
+  this.type = type || 'any';
 }
 
 // bear prototype being created
